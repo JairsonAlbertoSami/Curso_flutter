@@ -1,0 +1,41 @@
+import 'produtor.dart';
+
+List produtor = <Produtor>[
+  Produtor(
+      imagemUrl: "",
+      nome: "jairson",
+      sobrenome: "Sami",
+      acesso: "Mar",
+      bairo: "cuntum",
+      cidade: "Bissau",
+      preco: 4,
+      producao: 55,
+      quantidadeDisponivel: 4600,
+      regiao: "Bafata",
+      stok: 560,
+      vendas: 6),
+  Produtor(
+      nome: "Paulo",
+      sobrenome: "santos",
+      acesso: "estrada",
+      bairo: "pluba",
+      cidade: "cacheu",
+      preco: 4,
+      producao: 55,
+      quantidadeDisponivel: 4600,
+      regiao: "cacheu",
+      stok: 19,
+      vendas: 6),
+  Produtor(
+      nome: "Pauh",
+      sobrenome: "Alfredo",
+      acesso: "Mar",
+      bairo: "bula",
+      cidade: "cacheu",
+      preco: 89,
+      producao: 89,
+      quantidadeDisponivel: 78,
+      regiao: "Bafata",
+      stok: 5,
+      vendas: 9),
+];
